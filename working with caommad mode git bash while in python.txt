@@ -1,0 +1,88 @@
+how to to type and exit when we are creating a file with vim editor
+ChatGPT said:
+ChatGPT
+To create a file with the vim editor and then exit after typing, follow these steps:
+
+Open the terminal and type:
+
+bash
+Copy code
+vim filename.txt
+Replace filename.txt with your desired file name.
+
+Enter Insert mode by pressing i. You can now type your text.
+
+Once you're done typing, press Esc to exit Insert mode.
+
+To save and exit, type:
+
+bash
+Copy code
+:wq
+Then press Enter.
+
+go to the same folder where you are in python and create a folder there for "text_files"
+vim guido_bio.txt
+i
+this is sample test file about guido bio text
+ESC
+:wq + enter
+
+FileExample.py
+
+f=open("../guido_bio.txt")
+text=f.read()
+f.close()
+print(text)
+
+FileExample2.py
+with open("../guido_bio.txt") as fobj:
+    bio = fobj.read()
+print(bio)
+
+FileExample3.py
+try:
+    with open("../not_exist_file.txt") as fobj:
+        text=fobj.read()
+except FileNotFoundError:
+    text = None
+print(text)
+
+
+FileExample4.py
+try:
+    with open("../guido_bio.txt) as fobj:
+        text=fobj.read()
+except FileNotFoundError:
+    text = None
+print(text)
+
+FileExample5.py
+oceans = ["Pacific", "Atlantic", "Indian", "Southren", "Arctic"]
+
+with open("../oceans.txt", "w") as f:
+    for ocean in oceans:
+        f.write(ocean)
+        f.write("\n")
+
+
+what is unitest module in python
+ChatGPT said:
+ChatGPT
+The unittest module in Python is a built-in library for creating and running tests for your code.
+It provides a framework for writing test cases, organizing them into test suites, and executing those tests
+ to ensure that your code behaves as expected.
+
+Key Features of unittest:
+Test Cases: You can create test cases by subclassing unittest.TestCase. 
+Each method in the class that starts with the word "test" will be considered a test.
+
+Assertions: The module provides various assertion methods, 
+such as assertEqual(), assertTrue(), assertFalse(), assertRaises(), and more, to check for expected outcomes.
+
+Test Suites: You can group multiple test cases into a test suite for organized execution.
+
+Test Runner: You can run your tests using the built-in test runner, which can be done from the command line or programmatically.
+
+Test Discovery: It can automatically discover tests in your project based on naming conventions.
+

@@ -1,0 +1,37 @@
+PROTOCOL some times called as scheme : HTTP HTTPS FTP 
+Host name : en.wikipedia.org
+port : http: 80 https: 443
+After hostname comes path 
+path : wiki/URL,   watch
+query string : The text after question mark called "query string", collection of key-value pair separated by ampersands
+Lastly , you may see a hashtag at the end followed by a string, this will be called as fragment. i.e history
+
+building, loading and parsing URLs: Python 3: URLLIB Package
+This Package contains 5 modules, Request, Response, error, parse, and robotparser
+
+https://www.youtube.com/watch?v=LosIGgon_KM&list=PLi01XoE8jYohWFPpC17Z-wWhPOSuh8Er-&index=34
+
+urlopen
+type(resp)
+resp.code
+resp.length
+resp.peek()
+data=resp.read()
+len(data)
+HTM=data.decode("UTF-8")
+type(htm)
+print htm value
+resp=request.urlopen()
+take a combination of values like port, Host name, path and query string, fragment in to variable
+by cobining al these
+from urllib import parse
+create a dictionary variable called params with a combination of values like port, Host name, path and query string, fragment by combining all these 
+querystring= parse.urlencode(params)
+url= build the url by combining port, Host name, path and query string
+resp=request.urlopen(url)
+resp.isclosed()
+resp.code
+htmlcontentext=resp.read().decode("UTF-8")
+display the response status code
+display the response body
+

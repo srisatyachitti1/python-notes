@@ -1,0 +1,31 @@
+To add a username and email address to Git, you can use the following commands in the command line: 
+Command
+Description
+git config --global user.name "FIRST_NAME LAST_NAME"
+
+
+Sets your username
+git config --global user.email "MY_NAME@example.com"
+
+Sets your email address
+git config --global user.name "srisatya chitti"
+git config --global user.email "srisatya.chitti@qmaastech.com"
+
+ssh-keygen -t rsa -b 4096 -C "srisatya.chitti@qmaastech.com"
+cat .git/config
+Displays your configuration file to verify your settings
+git config --list
+Verifies that your username and email address have been saved
+
+
+Copy-Item -Recurse -Path .\QMaasTestLab> -Destination C:\QMaasTestLab
+
+import os
+
+def run_tests():
+    """Run both Playwright and API tests and generate reports."""
+    os.system("pytest C:/QMaasTestLab/test_api --html=reports/report.html --self-contained-html")
+
+
+if __name__ == "__main__":
+    run_tests()

@@ -1,0 +1,124 @@
+{
+    "tenantId": 2020,
+    "accountId": 26862,
+    "demographicInfo": {
+        "accountType": "BUSINESS",
+        "category": "REVENUE",
+        "paymentModel": "PREPAID",
+        "fleet": false,
+        "companyName": "TCS",
+        "companyCode": "TCS12",
+        "visitor": false,
+        "visitorStartDate": "2024-09-01T12:00:00",
+        "visitorEndDate": "2024-09-01T12:00:00",
+        "name": {
+            "prefix": "Mr.",
+            "firstName": "D",
+            "middleName": "E",
+            "lastName": "G",
+            "suffix": "Jr."
+        },
+        "addressReferenceId": 26857,
+        "email": "ds@example.com",
+        "confirmEmail": "ds@example.com",
+        "alternateEmail": "gs@example.com",
+        "mobileNumber": "1234567890",
+        "phoneNumber": "098-765-4321"
+    },
+    "vehicles": [
+        {
+            "vehicleReferenceId": 26858,
+            "tagReferenceId": 26859,
+            "tollingMethod": "TAG",
+            "vehicleDetails": {
+                "hamRadioOperator": false,
+                "temporary": false,
+                "plateNumber": "JKL1234",
+                "plateState": "CA",
+                "plateCountry": "USA",
+                "plateType": "PERSONAL",
+                "domestic": true,
+                "yearOfRegistration": 2017,
+                "vehicleMake": "Toyota",
+                "vehicleModel": "Camry",
+                "vehicleColor": "Blue",
+                "vehicleClass": "Sedan",
+                "plateRegistrationStartDate": "2022-01-01",
+                "plateRegistrationEndDate": "2025-01-01",
+                "vehicleAccountActivationDate": "2024-09-01",
+                "vehicleAccountEndDate": "2025-09-01"
+            }
+        },
+        {
+            "vehicleReferenceId": 26860,
+            "tollingMethod": "VIDEO",
+            "vehicleDetails": {
+                "hamRadioOperator": false,
+                "temporary": false,
+                "plateNumber": "GHI5678",
+                "plateState": "TX",
+                "plateCountry": "USA",
+                "plateType": "COMMERCIAL",
+                "domestic": true,
+                "yearOfRegistration": null,
+                "vehicleMake": "Ford",
+                "vehicleModel": "F-150",
+                "vehicleColor": "Red",
+                "vehicleClass": "Truck",
+                "plateRegistrationStartDate": "2023-02-01",
+                "plateRegistrationEndDate": "2026-02-01",
+                "vehicleAccountActivationDate": "2024-09-01",
+                "vehicleAccountEndDate": "2025-09-01"
+            }
+        }
+    ],
+    "tags": [
+        {
+            "tagReferenceId": 26859,
+            "hasTag": true,
+            "tagAgencyId": "123456789abcdefgmr",
+            "tagId": "123456789abcdefgmr",
+            "itemType": "STICKER_TAG",
+            "tagType": "STICKER",
+            "mounting": "YES",
+            "tagDeliveryMethod": "HAND_TO_CUSTOMER",
+            "tagAliasName": "my tag"
+        }
+    ],
+    "videos": [
+        {
+            "videoReferenceId": 26861,
+            "plateNumber": "ABC123"
+        }
+    ],
+    "address": {
+        "addressReferenceId": 26857,
+        "billingAddress": null,
+        "mailingAddress": [
+            {
+                "country": "USA",
+                "address1": "789 Oak St",
+                "address2": "",
+                "city": "San Diego",
+                "state": "CA",
+                "zipCode": "92101",
+                "isCurrentAddress": true,
+                "lastUpdatedDate": "2024-09-01T12:00:00"
+            }
+        ],
+        "shippingAddress": [
+            {
+                "country": "USA",
+                "address1": "789 Oak St",
+                "address2": "",
+                "city": "San Diego",
+                "state": "CA",
+                "zipCode": "92101",
+                "isCurrentAddress": true,
+                "lastUpdatedDate": "2024-09-01T12:00:00"
+            }
+        ]
+    },
+    "status": "Success",
+    "message": "Account data fetched successfully"
+}

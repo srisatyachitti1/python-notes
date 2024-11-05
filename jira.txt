@@ -1,0 +1,16 @@
+Jira offers several pricing tiers, including a free version, but it comes with certain limitations. Here’s a breakdown:
+
+Jira Software Free Plan
+For small teams: Free for teams of up to 10 users.
+Features:
+Basic project tracking
+Scrum and Kanban boards
+Backlog management
+Customizable workflows
+Reporting and dashboards (but limited in terms of complexity)
+Basic permissions
+Paid Plans:
+Standard: For teams of 11+ users, with more advanced features and better support. Pricing starts at around $7.75 per user/month (subject to change).
+Premium: Offers more advanced features like advanced permissions, better automation rules, and additional security options. Prices start at around $15.25 per user/month.
+Enterprise: Tailored for larger organizations with custom pricing, including advanced admin controls and enterprise-level support.
+So, yes, Jira is free to use for small teams (up to 10 users), but as your team grows or needs more advanced features, there are paid options available.
